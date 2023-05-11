@@ -1,0 +1,32 @@
+@import "_variables";
+@import "_header";
+@import "_home";
+@import "_events";
+@import "_learn";
+@import "_contact";
+@import "_footer";
+
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Roboto:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  scroll-behavior: smooth;
+  list-style: none;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-image: url(/img/bg-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 100vw;
+}

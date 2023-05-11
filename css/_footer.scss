@@ -1,0 +1,21 @@
+footer {
+  padding: 10px 15%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  background: $extraColor;
+  p {
+    color: $textColor;
+    font-size: 14px;
+    font-family: $fontBasic;
+  }
+  .top i {
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 15px;
+    color: $primaryColor;
+    background: $secondaryColor;
+  }
+}

@@ -1,0 +1,57 @@
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 10001;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  padding: 5px 5%;
+  /*border-bottom: 1px solid #fff;*/
+  transition: all 0.45s ease;
+}
+
+a {
+  color: #fff;
+}
+.logo {
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.nav-bar ul {
+  display: flex;
+}
+
+.nav-bar a {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0 25px;
+  text-transform: uppercase;
+  transition: all 0.45s ease;
+}
+
+#menu-icon {
+  font-size: 35px;
+  color: #fff;
+  z-index: 10001;
+  margin-left: 25px;
+  cursor: pointer;
+  display: none;
+}
+
+#icon {
+  display: block;
+  color: #fff;
+}
+
+header.sticky {
+  background: #c97a03;
+  /*border-bottom: 1px solid #fff;
+  padding: 12px 15%;*/
+}
